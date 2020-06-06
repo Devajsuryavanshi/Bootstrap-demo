@@ -139,3 +139,24 @@ em{
   width: 15%;
   margin: 30px;
 }
+
+
+/**********PRICING**********/
+
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+
+.card{
+  text-align: center;
+  padding: 20px;
+}
+
+.Pricing-box{
+  padding: 5% 3%;
+}
+
+.card-header{
+  background-color: #f4f4f4;
+}
