@@ -203,6 +203,11 @@ em{
     padding-top: 10px;
   }
 
+  .container-fluid{
+    padding: 3% 0;
+    margin: auto;
+  }
+
   #title{
     text-align: center;
   }
