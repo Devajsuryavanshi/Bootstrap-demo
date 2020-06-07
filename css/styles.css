@@ -203,9 +203,15 @@ em{
     padding-top: 10px;
   }
 
-  .container-fluid{
-    padding: 3% 0;
-    margin: auto;
+  .container-fluid {
+    padding-right:2%;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
+ }
+
+  .navbar{
+    padding: 0 0 3.5rem ;
   }
 
   #title{
