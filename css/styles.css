@@ -42,7 +42,7 @@ em{
 }
 
 .container-fluid{
-  padding: 3% 15%;
+  padding: 3% 15% 4%;
 }
 
 .navbar{
@@ -68,13 +68,16 @@ em{
 
 .Phone-Image{
   width: 60%;
-  height: 90%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
 }
 
 /***********TABLE FEATURES***********/
 #features{
   padding: 7% 15%;
+  background-color: white;
+  position: relative;
 }
 .feature-box{
     text-align: center;
@@ -159,4 +162,77 @@ em{
 
 .card-header{
   background-color: #f4f4f4;
+}
+
+
+/*Call to Action and Footer*/
+
+#cta{
+  background-color:#f4f4f4;
+  text-align: center;
+  padding: 5% 0;
+}
+.dld-button{
+  margin: 2% 1%;
+}
+
+.footer{
+  text-align: center;
+  padding-top: 10px;
+  margin: 0;
+}
+
+.social-icon{
+  width: 25px;
+  height: 25px;
+  margin: 3% 1.5%;
+}
+
+.foot-para{
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* MOBILE SIZING THE IMAGE */
+
+@media(max-width: 1000px)
+{
+  .Phone-Image{
+    transform: rotate(0deg);
+    position: static;
+    padding-top: 10px;
+  }
+
+  #title{
+    text-align: center;
+  }
+
+  .nav-link{
+    text-align: left;
+  }
+
+  h1{
+    font-size: 2.5rem;
+    line-height: 1.5;
+    padding: 5% 5% 5% 0;
+  }
+
+  h2{
+     font-size: 2rem;
+     font-weight: bolder;
+     line-height: 1;
+  }
+
+  .card{
+    padding: 10px;
+  }
+
+  #pricing{
+    padding: 30px;
+  }
+
+  .cta-h{
+    padding: 25px 15px;
+    font-size: 1.8rem;
+  }
 }
