@@ -202,6 +202,10 @@ em{
     position: static;
     padding-top: 10px;
   }
+  
+  html,body{
+    overflow-x: hidden;
+  }
 
   .container-fluid {
     padding-right:2%;
